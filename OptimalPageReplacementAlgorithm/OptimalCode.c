@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Implementation of Page replacement algorithm
+
 int main()
 
 {
