@@ -6,7 +6,7 @@ In a computer operating system that uses paging for virtual memory management, p
 
 Page replacement algorithms are an important part of virtual memory management and it helps the OS to decide which memory page can be moved out, making space for the currently needed page. However, the ultimate objective of all page replacement algorithms is to reduce the number of page faults.
 
-*Solution
+*Provided Solution
 
 In operating systems, whenever a new page is referred and not present in memory, page fault occurs and Operating System replaces one of the existing pages with newly needed page. Different page replacement algorithms suggest different ways to decide which page to replace. The target for all algorithms is to reduce number of page faults.
 In this algorithm, OS replaces the page that will not be used for the longest period of time in future.
